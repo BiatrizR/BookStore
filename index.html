@@ -1,25 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookStore</title>
+    <title>📚 BookStore</title>
+
+    <!--Font Awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--lINK ARQUIVO CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
-
 <body>
-    <header>
-        <div>
-            <i class="fa-solid fa-book-bible">BookThings</i>
-        </div>
 
-        <div>
-            <a href="http://"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="http://"><i class="fa-solid fa-star"></i></a>
-            <a href="http://"><i class="fa-solid fa-user-secret"></i></a>
-        </div>
+    <!--- 1. começando header da página-->
+    <header class="header">
+       
+        <div class="header-1">
+
+           <a href="#"  class="logo"><i class="fa-solid fa-book"> </i> BookThings </a> 
+
+           <!-- Caixa de pesquisa-->
+           <form action=""  class= "search-form">
+            
+            <input type="search" name="" placeholder="Procure o livro...." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+                
+            
+
+           </form>
+        
+           <!-- icones do perfil-->
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+               
+            </div>
+
+       </div>
+
+       <div class="header-2">
+            <nav class="navBar">
+                <a href="#home">  Home</a>
+                <a href="#destaques">Destaques</a> <!--featured-->
+                <a href="#novidade"> Lançamento</a><!--arrivals-->
+                <a href="#avaliações"> Avaliações</a> <!--reviews-->
+                <a href="#contato"> Contato</a><!--contact-->
+
+            </nav>
+        
+
+       </div>
+
     </header>
-</body>
+<!-- fim do header-->
 
+<!-- Bottom nav icons bar-->
+
+    <nav class="bottom-navBar">
+                <a href="#home" class="fa-solid fa-house-chimney"></a>
+                <a href="#destaques" class="fa-solid fa-bolt"></a> <!--featured-->
+                <a href="#novidade" class="fa-solid fa-bookmark"></a><!--arrivals-->
+                <a href="#avaliações" class="fa-solid fa-square-check"></a> <!--reviews-->
+                <a href="#contato" class="fa-regular fa-id-badge"></a><!--contact-->
+
+    </nav>
+
+<!--- Home section starts--->
+     <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3> até 75% de desconto</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
+                    upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <a href="" class="btn"> Comprar agora </a>
+
+
+            </div>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide"> <img src="image/book-2.png" alt=""> </a>
+                    <a href="" class="swiper-slide"> <img src="image/book-3.png" alt=""> </a>
+                    <a href="" class="swiper-slide"> <img src="image/book-1.png" alt=""> </a>
+                    <a href="" class="swiper-slide"> <img src="image/book-4.png" alt=""> </a>
+                    <a href="" class="swiper-slide"> <img src="image/book-5.png" alt=""> </a>
+                    <a href="" class="swiper-slide"> <img src="image/book-6.png" alt=""> </a>
+ 
+                </div>
+              
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!-- home section end-->
+        
+
+<!--LINK AQRUIVO JS-->
+ 
+</body>
 </html>
