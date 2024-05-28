@@ -1,0 +1,164 @@
+/*deixar imports e fonts já no código*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/*Variáveis de cores*/
+:root{
+    --blue: #329ad7;
+    --dark-color: #106da3;
+    --black: #444;
+    --light-color:#66;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+/*código para zerar o css*/
+* {
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-light {  
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+/*applicando stilo padrão para todo html*/
+html::--webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--black);
+}
+
+/*Começando estilo de classe HTML*/
+.header .header-1{
+    background:#fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*mudando a calsse logo, a parte onde está o livro e o nome*/
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+/*espaçando o livro*/
+.header .header-1 .logo i{
+    color: var(--blue);
+}
+
+/*campo de pesquisa*/
+.header .header-1 .search-form{
+    width: 50rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: flex;
+    align-items: center;
+    border-radius: .5rem;
+    display: flex;
+}
+
+/*mundando dentro do input*/
+.header .header-1 .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform:none;
+    color: var(--black);
+
+ }
+
+ .header .header-1 .search-form label{
+    font-size: 2.5rem;
+    padding-right:  1.5rem;
+    color: var(--black);
+    cursor:pointer;
+ }
+
+ /*hover, mudança de cor ao passar mouse em cima*/
+ .header .header-1 .search-form label:hover{
+    color: var(--blue);
+
+ }
+
+ /*icones do perfil do lado diretio*/
+ .header .header-1 .icons div,
+ .header .header-1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor:pointer;
+
+ }
+
+ .header .header-1 .icons div:hover,
+ .header .header-1 .icons a:hover{
+    color:var(--blue);
+ }
+
+ /*div com o ícone*/
+ #search-btn{
+  display: none;
+ }
+
+ /* começar editar div com classe header-2*/
+.header-2{
+  background:#087062 ;
+}
+.header-2 .navBar{
+  text-align: center;
+}
+.header-2 .navBar a{
+  color: #b7bfce;
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+}
+.header-2 .navBar a:hover{
+  background:#0ca893;
+}
