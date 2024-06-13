@@ -8,6 +8,12 @@
     <!--Font Awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    
+    <!-- link swiper para carrossel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
     <!--lINK ARQUIVO CSS-->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -45,11 +51,11 @@
 
        <div class="header-2">
             <nav class="navBar">
-                <a href="#home">  Home</a>
+                <a href="#home">Home</a>
                 <a href="#destaques">Destaques</a> <!--featured-->
-                <a href="#novidade"> Lançamento</a><!--arrivals-->
-                <a href="#avaliações"> Avaliações</a> <!--reviews-->
-                <a href="#contato"> Contato</a><!--contact-->
+                <a href="#novidade">Lançamento</a><!--arrivals-->
+                <a href="#avaliações">Avaliações</a> <!--reviews-->
+                <a href="#contato">Contato</a><!--contact-->
 
             </nav>
         
@@ -59,53 +65,154 @@
     </header>
 <!-- fim do header-->
 
-<!-- Bottom nav icons bar-->
+ <!-- ! home section starts -->
 
-    <nav class="bottom-navBar">
-                <a href="#home" class="fa-solid fa-house-chimney"></a>
-                <a href="#destaques" class="fa-solid fa-bolt"></a> <!--featured-->
-                <a href="#novidade" class="fa-solid fa-bookmark"></a><!--arrivals-->
-                <a href="#avaliações" class="fa-solid fa-square-check"></a> <!--reviews-->
-                <a href="#contato" class="fa-regular fa-id-badge"></a><!--contact-->
+ <section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3> até 75% de desconto</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
+                upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <a href="" class="btn"> Comprar agora </a>
 
-    </nav>
 
-<!--- Home section starts--->
-     <section class="home" id="home">
-        <div class="row">
-            <div class="content">
-                <h3> até 75% de desconto</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
-                    upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                <a href="" class="btn"> Comprar agora </a>
-
+        </div>
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="" class="swiper-slide"> <img src="image/book-2.png" alt=""> </a>
+                <a href="" class="swiper-slide"> <img src="image/book-3.png" alt=""> </a>
+                <a href="" class="swiper-slide"> <img src="image/book-1.png" alt=""> </a>
+                <a href="" class="swiper-slide"> <img src="image/book-4.png" alt=""> </a>
+                <a href="" class="swiper-slide"> <img src="image/book-5.png" alt=""> </a>
+                <a href="" class="swiper-slide"> <img src="image/book-6.png" alt=""> </a>
 
             </div>
-            <div class="swiper books-slider">
-                <div class="swiper-wrapper">
-                    <a href="" class="swiper-slide"> <img src="image/book-2.png" alt=""> </a>
-                    <a href="" class="swiper-slide"> <img src="image/book-3.png" alt=""> </a>
-                    <a href="" class="swiper-slide"> <img src="image/book-1.png" alt=""> </a>
-                    <a href="" class="swiper-slide"> <img src="image/book-4.png" alt=""> </a>
-                    <a href="" class="swiper-slide"> <img src="image/book-5.png" alt=""> </a>
-                    <a href="" class="swiper-slide"> <img src="image/book-6.png" alt=""> </a>
+            <!-- <img src="image/stand.png" class="stand" alt="">-->
+        </div>
+
+    </div>
+
+
+
+</section>
+<!-- home section end-->
+<br>
+<br>
+<!-- Featured/ destaques section starts-->
  
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="featured-slider">
+        <div class="wrapper">
+           
+            <div class="box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
                 </div>
-              
+                <div class="image">
+                    <img src="image/book-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Livros em destaques</h3>
+                    <div class="price"> R$15,99 <span>R$20,99</span> </div>
+                    <a href="#" class="btn"> adicionar ao carrinho</a>
+
+                </div>
+            </div>
+
+            <div class="box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Livros em destaques</h3>
+                    <div class="price"> R$15,99 <span>R$20,99</span> </div>
+                    <a href="#" class="btn"> adicionar ao carrinho</a>
+
+                </div>
+            </div>
+
+            <div class="box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Livros em destaques</h3>
+                    <div class="price"> R$15,99 <span>R$20,99</span> </div>
+                    <a href="#" class="btn"> adicionar ao carrinho</a>
+
+                </div>
+            </div>
+
+            <div class="box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Livros em destaques</h3>
+                    <div class="price"> R$15,99 <span>R$20,99</span> </div>
+                    <a href="#" class="btn"> adicionar ao carrinho</a>
+
+                </div>
+            </div>
+            
+            <div class="box"> 
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-9.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Livros em destaques</h3>
+                    <div class="price"> R$15,99 <span>R$20,99</span> </div>
+                    <a href="#" class="btn"> adicionar ao carrinho</a>
+
+                </div>
             </div>
 
         </div>
 
+    </div>
 
 
-    </section>
-    <!-- home section end-->
-        
+
+</section>
+
+<!-- Featured/ destaques section end-->
+ 
+
+
 
 <!--LINK AQRUIVO JS-->
+<!-- swiper para js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--LINK AQRUIVO JS-->
+<script src="js/script.js"> </script>
  
 </body>
 </html>
